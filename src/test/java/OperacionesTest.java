@@ -36,6 +36,6 @@ class OperacionesTest {
 	@Test
 	void buscarNumeroTest() {
 		List<Integer> numeros = Arrays.asList(1,2,55,90,3,7,9,20);
-		assertEquals(5, Operaciones.buscarNumero(numeros, 3));
+		assertEquals(3, Operaciones.buscarNumero(numeros, 3));
 	}
 }

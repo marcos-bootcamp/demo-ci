@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="OperacionesTest" time="0.079" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="OperacionesTest" time="0.059" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PY"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-13-oracle/lib"/>
-    <property name="sun.java.command" value="/home/marcos/eclipseProjects/ci-demo/target/surefire/surefirebooter11597851276817965237.jar /home/marcos/eclipseProjects/ci-demo/target/surefire 2020-06-11T08-30-50_604-jvmRun1 surefire16040744718274669747tmp surefire_017651567848195006295tmp"/>
+    <property name="sun.java.command" value="/home/marcos/eclipseProjects/ci-demo/target/surefire/surefirebooter13955600240220613964.jar /home/marcos/eclipseProjects/ci-demo/target/surefire 2020-06-11T08-42-32_567-jvmRun1 surefire7098623700556317285tmp surefire_018362457393262050343tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/marcos/eclipseProjects/ci-demo/target/test-classes:/home/marcos/eclipseProjects/ci-demo/target/classes:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/marcos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/marcos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/marcos/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/marcos/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/marcos/eclipseProjects/ci-demo/target/surefire/surefirebooter11597851276817965237.jar"/>
+    <property name="surefire.real.class.path" value="/home/marcos/eclipseProjects/ci-demo/target/surefire/surefirebooter13955600240220613964.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
     <property name="user.name" value="marcos"/>
@@ -50,12 +50,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="sumaRangoTest" classname="OperacionesTest" time="0.024"/>
-  <testcase name="buscarNumeroTest" classname="OperacionesTest" time="0.011">
+  <testcase name="sumaRangoTest" classname="OperacionesTest" time="0.019"/>
+  <testcase name="buscarNumeroTest" classname="OperacionesTest" time="0.009">
     <failure message="expected: &lt;5&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <5> but was: <3>
 	at OperacionesTest.buscarNumeroTest(OperacionesTest.java:39)
 ]]></failure>
   </testcase>
   <testcase name="numeroMaxTest" classname="OperacionesTest" time="0.002"/>
-  <testcase name="numeroMinTest" classname="OperacionesTest" time="0.001"/>
+  <testcase name="numeroMinTest" classname="OperacionesTest" time="0.002"/>
 </testsuite>
